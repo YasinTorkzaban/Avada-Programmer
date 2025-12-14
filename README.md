@@ -14,7 +14,7 @@ This is a credit card form by TailwindCss
 
 - 👁‍🗨 [Demo Project]()
 - 👨🏻‍💻 Developed by Yasin Torkzaban
-- 📅 Created - 9-12-2025
+- 📅 Created - 12-14-2025
 - ⚙ Technologies Used - Html5 , Css3 , TailwindCss
   
 ![viewfinal](https://github.com/user-attachments/assets/7b1a7228-35cd-4b36-a6c2-7e42930cf0d8)
