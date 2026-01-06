@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/stylesheets/output.css">
+    <link rel="stylesheet" href="footer/src/stylesheets/fontello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+            overflow-x: hidden;
+        }
+
+
+        .instrument-sans-yas {
+            font-family: "Instrument Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    </style>
+</head>
+
+<body class="*:overflow-hidden">
+    <section
+        class="md:bg-[url('../img/bg-rojin-final.jpg')] bg-hidden bg-no-repeat  bg-right bg-size-[70%_100%] bg-position-[20% 100%] row justify-center w-full bg-black h-[1875px] md:h-[800px] lg:h-[950px] relative overflow-hidden">
+        <div class="w-full h-full row 2xl:container">
+            <!-- start header and menu -->
+            <header class="w-full h-24">
+                <nav class="w-full h-full row">
+                    <!-- logo -->
+                    <div class="h-full w-1/2 flex justify-start items-start sm:hidden **:sm:hidden">
+                        <div class="row w-[40%] h-[80%]">
+                            <figure class="w-full h-full flex justify-center items-center">
+                                <img class=" w-[52%]" src="src/img/mark.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- logo -->
+
+                    <!-- full logo -->
+                    <div
+                        class="row hidden sm:flex **:sm:flex justify-center md:justify-end lg:justify-center items-start lg:items-center xl:justify-end w-1/2 md:w-1/3 lg:w-3/12 h-full">
+                        <div
+                            class="row w-[80%] md:w-[90%] h-[80%] justify-end items-start sm:justify-start lg:items-end">
+                            <figure
+                                class="w-[90%] md:w-full h-[90%] flex justify-start lg:justify-center xl:justify-start items-center">
+                                <img class="h-[39%]" src="src/img/logo full.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- full logo -->
+
+                    <!-- hamburger-menu -->
+                    <div class="flex justify-end w-1/2 md:w-1/3 md:justify-center items-start lg:hidden">
+                        <div class="w-[40%] h-[80%] row justify-center items-center">
+                            <div class="w-[56px] h-[40px] bg-[#3B3C3C] flex justify-center items-center fill-white">
+                                <img class="w-[18%] h-[80%] scale-200" src="src/img/hamburger-menu.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hamburger-menu -->
+
+                    <!-- menu -->
+                    <ul
+                        class="hidden lg:flex lg:w-6/12 lg:justify-evenly xl:justify-start *:w-1/7 *:h-full *:flex *:justify-start *:items-center">
+                        <li class=""><a
+                                class="flex text-[16px] relative before:content[''] before:w-full before:h-[2px] before:bg-white before:absolute before:left-0 before:bottom-0 text-white"
+                                href="">Home</a></li>
+                        <li class=""><a
+                                class="flex text-[16px] relative text-white before:content[''] before:w-full before:h-[2px] before:bg-white before:absolute before:left-0 before:bottom-0 before:scale-85 before:duration-200 before:translate-y-[-5px] before:opacity-0 hover:before:opacity-100 hover:before:scale-100 hover:before:translate-y-0"
+                                href="">About Us</a></li>
+                        <li class=""><a
+                                class="flex text-[16px] relative text-white before:content[''] before:w-full before:h-[2px] before:bg-white before:absolute before:left-0 before:scale-85 before:duration-200 before:translate-y-[-5px] before:opacity-0 hover:before:opacity-100 hover:before:scale-100 hover:before:translate-y-0 before:bottom-0"
+                                href="">Projects</a></li>
+                        <li class=""><a
+                                class="flex text-[16px] relative text-white before:content[''] before:w-[130%] before:h-[2px] before:bg-white before:absolute before:left-0 before:scale-85 before:duration-200 before:translate-y-[-5px] before:opacity-0 hover:before:opacity-100 hover:before:scale-100 hover:before:translate-y-0 before:bottom-0"
+                                href="">Services</a>
+                            <svg class="translate-y-0.5" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#F3F3F3">
+                                <path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z" />
+                            </svg>
+                        </li>
+                        <li class=""><a
+                                class="flex text-[16px] relative text-white before:content[''] before:w-full before:h-[2px] before:bg-white before:absolute before:left-0 before:bottom-0 before:scale-85 before:duration-200 before:translate-y-[-5px] before:opacity-0 hover:before:opacity-100 hover:before:scale-100 hover:before:translate-y-0"
+                                href="">Blog</a></li>
+                    </ul>
+                    <!-- menu -->
+
+                    <!-- get in touch -->
+                    <div class="hidden md:flex md:w-1/3 lg:w-3/12 items-center justify-center">
+                        <div
+                            class="w-[80%] lg:w-[77%] h-[80%] lg:h-full m-3.5 row justify-end items-start lg:items-center **:text-white **:text-[17px]">
+                            <a
+                                class="group row overflow-hidden w-[171px] h-[62px] py-[35px] px-[18px] rounded-4xl bg-black border-2 border-[#3b3c3c] justify-center lg:justify-start items-center duration-200 *:duration-200  hover:border-white">
+                                <span
+                                    class="flex justify-center items-center w-full h-full group-hover:opacity-0 group-hover:-translate-y-[60px] ease-[cubic-bezier(.21, .6, .35, 1)]">Get
+                                    in touch!</span>
+                                <span
+                                    class="flex justify-center items-center w-full h-full opacity-0 group-hover:opacity-100 group-hover:-translate-y-[60px] ease-[cubic-bezier(.21, .6, .35, 1)]">Get
+                                    in touch!</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- get in touch -->
+                </nav>
+            </header>
+            <!-- end header and menu-->
+
+
+            <!-- start sec2 -->
+
+            <div class="row w-full h-[1715px] md:h-[650px] lg:h-[800px] 2xl:container px-6! md:p-4!">
+                <!-- first div -->
+                <div
+                    class="h-[515px] sm:h-[70vh] md:w-1/2 md:h-full row w-full *:w-full md:pl-2! md:pt-6! lg:p-0! lg:*:w-[70%] lg:justify-center lg:justify-items-stretch lg:pl-[25px]!">
+
+                    <!-- ///// -->
+                    <div class="w-full row justify-start items-center">
+                        <a class="text-[#f6e760] text-[17px] font-bold underline decoration-[#f6e760] ml-1! mt-3! lg:mt-13!"
+                            href="">Avada Programmer</a>
+                        <h1
+                            class="text-white text-[46px] lg:text-[62px] font-bold ml-1! text-sm/13 lg:text-sm/16 tracking-tight">
+                            Hello! We Are A
+                            Group Of
+                            Skilled Developers And Programmers.</h1>
+                        <p
+                            class="flex w-[75%] lg:w-[90%] text-[#ffffffb2] text-[19px] ml-2! -mt-2! text-sm/7.5 lg:mt-2.5!">
+                            We have experience
+                            in working with different platforms, systems, and devices to create products that are
+                            compatible and accessible.</p>
+                        <a
+                            class="group row overflow-hidden w-[260px] h-[60px] py-[35px] px-[18px] rounded-[50px] bg-black border-2 border-[#3b3c3c] justify-center lg:justify-start items-center duration-200 *:duration-200  hover:border-white **:text-white **:text-[17px] ml-1! mt-5! -mb-5! lg:mt-2! lg:ml-3!">
+                            <span
+                                class="flex justify-center items-center w-full h-full group-hover:opacity-0 group-hover:-translate-y-[60px] ease-[cubic-bezier(.21, .6, .35, 1)]">Learn
+                                about our services</span>
+                            <span
+                                class="flex justify-center items-center w-full h-full opacity-0 group-hover:opacity-100 group-hover:-translate-y-[58px] ease-[cubic-bezier(.21, .6, .35, 1)]">Learn
+                                about our services</span>
+                        </a>
+                    </div>
+                    <!-- //////// -->
+                    <div></div>
+                </div>
+                <!-- first div -->
+
+                <!-- second div -->
+                <div class="flex flex-wrap justify-center items-center w-full md:w-1/2 h-[1200px] md:h-full">
+                    <div
+                        class="*:border-2 *:border-transparent md:relative row flex-wrap justify-center sm:items-start w-full h-full md:w-[80%] lg:w-[70%] md:h-[80%] bg-[url('../img/bg-gradient.jpg')] bg-size-[100%_100%] bg-no-repeat bg-center **:rounded-[5px] py-15! md:rounded-[5px] overflow-hidden md:overflow-visible md:ml-15! lg:ml-0!">
+                        <figure
+                            class="md:absolute w-[80%] md:w-[55%] mb-[-200px]! md:mb-0 md:top-[12%] md:left-[-20%] lg:top-[10%] lg:left-[-15%]">
+                            <img src="src/img/monitor-sec1.jpg" alt="">
+                        </figure>
+                        <figure
+                            class="md:absolute w-[80%] md:w-[55%] mt-[250px]! md:mt-0 md:top-[-10%] md:left-[60%] lg:top-[-15%] lg:left-[55%]">
+                            <img src="src/img/code-sec1.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- second div -->
+            </div>
+
+            <div class="row w-full h-64"></div>
+            <!-- end sec2 -->
+        </div>
+    </section>
+
+
+    <!-- 5 sponser -->
+    <section class="row justify-center w-full h-[320px] md:h-[200px] bg-black">
+        <div class="row w-full h-full justify-center items-center 2xl:container">
+            <div
+                class="row justify-center w-full md:w-[80%] lg:w-full h-[80%] md:h-full lg:justify-evenly xl:justify-center *:xl:mx-10! *:lg:w-1/7 *:xl:w-1/9">
+                <figure class="w-1/2 h-1/4 flex justify-center items-center md:h-full md:w-1/5">
+                    <img class="w-[70%] md:w-[90%] xl:w-full" src="src/img/sponsor-1.svg" alt="">
+                </figure>
+                <figure class="w-1/2 h-1/4 flex justify-center items-center md:h-full md:w-1/5">
+                    <img class="w-[50%] md:w-[70%]" src="src/img/sponsor-2.svg" alt="">
+                </figure>
+                <figure class="w-1/2 h-1/4 flex justify-center items-center md:h-full md:w-1/5">
+                    <img class="w-[55%] md:w-[75%]" src="src/img/sponsor-3.svg" alt="">
+                </figure>
+                <figure class="w-1/2 h-1/4 flex justify-center items-center md:h-full md:w-1/5">
+                    <img class="w-[70%] md:w-[85%] xl:w-[95%]" src="src/img/sponsor-4.svg" alt="">
+                </figure>
+                <figure class="w-1/2 h-1/4 flex justify-center items-center md:h-full md:w-1/5">
+                    <img class="w-[22%] md:w-[32%]" src="src/img/sponsor-5.svg" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- 5 sponser -->
+
+    <!-- sec 3 -->
+    <section class="row justify-center w-full h-auto bg-black md:h-[110vh] 2xl:h-[800px]">
+        <div class="row md:flex-col w-full h-full px-1! md:px-0! 2xl:container">
+
+            <div
+                class="row h-[100vh] w-full md:h-full md:w-[40%] md:flex-nowrap justify-center lg:justify-end items-center">
+                <figure
+                    class="w-[90%] h-[83%] md:w-[75%] md:h-[40%] lg:w-[75%] lg:h-[75%] rounded-[5px] overflow-hidden bg-amber-600">
+                    <img class="w-full h-full" src="src/img/img-sec3.jpg" alt="">
+                </figure>
+            </div>
+
+            <div
+                class="relative row w-full h-[50vh] sm:h-[35vh] md:w-[60%] md:h-[60%] xl:h-[40%] justify-start items-start xl:justify-center xl:items-center *:ml-6! md:*:ml-9! after:content[''] after:flex after:w-[85%] after:h-[0.5px] after:bg-[#3b3c3c] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2">
+                <h1
+                    class="text-[46px] text-white w-9/10 xl:w-3/4 font-bold! text-sm/13 mb-[-30px]! md:mb-[-100px]! xl:mb-[-50px]! md:mt-15! xl:mt-10! xl:-ml-4!">
+                    Professional Programming Services You Can Trust</h1>
+                <p class="text-[19px] text-[#ffffffb2] w-5/7 md:mt-10! lg:mt-0! xl:w-4/7 xl:-ml-40!">Egestas vitae
+                    tortor tempus a mauris egestas sit quis nec. Sem nam interdum sit accumsan tellus.</p>
+            </div>
+
+            <div class="row w-full h-[72vh] md:w-[60%] md:h-[40%] xl:h-[60%] *:w-full *:h-1/2 md:*:h-full md:*:w-1/2">
+
+                <div class="row items-center md:justify-start xl:justify-center *:ml-5!">
+                    <h3 class="text-white text-[22px] font-bold mt-10! md:mt-4! xl:-mt-20! xl:-mb-30! xl:ml-17!">
+                        Programming Solutions</h3>
+                    <p class="text-[#ffffffb2] text-[17px] w-7/8 xl:w-1/2 -mt-12! md:-mt-15! xl:-mt-40! xl:ml-11!">
+                        Egestas vitae tortor tempus a mauris egestas sit quis nec.</p>
+                    <a
+                        class="text-[#f6e760] text-[17px] xl:w-[60%] font-bold underline decoration-[#f6e760] -mt-10! md:-mt-12! xl:-mt-88! xl:ml-23!">Learn
+                        about this</a>
+                </div>
+
+                <div class="row items-start md:items-center md:justify-start *:ml-5!">
+                    <h3 class="text-white text-[22px] font-bold mt-4!  xl:-mt-20! xl:-mb-30! xl:ml-7!">Build Your Dream
+                        Website</h3>
+                    <p class="text-[#ffffffb2] text-[17px] w-7/8 xl:w-1/2 -mt-15!  xl:-mt-40! xl:ml-7!">Egestas vitae
+                        tortor tempus a mauris egestas sit quis nec.</p>
+                    <a
+                        class="text-[#f6e760] text-[17px] xl:w-[60%] font-bold underline decoration-[#f6e760] -mt-12!  xl:-mt-88! xl:ml-7!">Learn
+                        about this</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- sec 3 -->
+
+    <!-- sec 4 -->
+    <section class="w-full h-[295vh] sm:h-[355vh] md:h-[120vh] row  justify-center 2xl:h-[800px]">
+        <div class="row w-full h-full 2xl:container">
+
+            <!-- heading -->
+            <div class="row w-full h-[65vh] md:h-[50vh] 2xl:h-[45%] *:w-full">
+
+                <div class="row h-[27%] justify-center items-end">
+                    <a class="w-full h-full flex justify-center items-end text-[17px] text-[#432Df4] font-semibold underline decoration-1.5 decoration-[#432Df4]"
+                        href="">Our Services</a>
+                </div>
+
+                <div class="row h-[38%] w-full justify-center items-center">
+                    <h2
+                        class="w-[90%] h-full lg:w-full flex items-center justify-center text-[46px] text-sm/13 text-center font-bold mt-1.5!">
+                        Discover What We Do and How We Do It</h2>
+                </div>
+
+                <div class="row h-[35%] justify-center">
+                    <p
+                        class="h-full w-[52%] md:w-[53%] text-[#0E0F11] text-[19px] font-extralight text-center mt-1.5! text-sm/8">
+                        Egestas vitae tortor tempus a mauris egestas sit quis nec. Sem nam interdum sit accumsan tellus.
+                    </p>
+                </div>
+            </div>
+            <!-- heading -->
+
+            <div
+                class="row w-full items-center justify-center *:items-center *:justify-center h-[230vh] sm:h-[290vh] md:h-[70vh] 2xl:h-[55%] border-2 border-transparent *:h-1/3 *:w-full md:*:h-full md:*:w-1/3 *:lg:w-[30%] lg:gap-2.5">
+                <!-- ///// -->
+                <div class="row *:w-full">
+                    <div class="row h-[80%] sm:h-[90%] md:h-1/2 md:w-[90%] justify-center items-center">
+                        <figure
+                            class="flex w-[90%] h-[80%] sm:h-[90%] md:h-[72%] md:w-[73%] lg:w-[80%] lg:h-full rounded-[5px] overflow-hidden items-center justify-center">
+                            <img class="w-full h-full" src="src/img/sec-4-1.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:w-1/2 md:h-2/8 lg:w-full justify-center items-center">
+                        <h3
+                            class="text-[22px] text-[#0E0F11] font-bold! hover:text-[#432df4] duration-400 instrument-sans-yas md:text-center">
+                            Software Development</h3>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:h-2/8 md:w-6/8 lg:w-full justify-center md:items-start">
+                        <p class="text-[16px] text-[#0E0F11] w-[70%] text-center font-extralight">Magna fermentum
+                            faucibus nibh ullamcorper consectetur est.</p>
+                    </div>
+                </div>
+                <!-- ////// -->
+                <div class="row *:w-full">
+                    <div class="row h-[80%] sm:h-[90%] md:h-1/2 md:w-[90%] justify-center items-center">
+                        <figure
+                            class="w-[90%] h-[80%] sm:h-[90%] md:h-[72%] md:w-[73%] lg:w-[80%] lg:h-full rounded-[5px]! overflow-hidden">
+                            <img class="w-full h-full" src="src/img/sec-4-2.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:w-1/2 md:h-2/8 lg:w-full justify-center items-center">
+                        <h3
+                            class="text-[22px] text-[#0E0F11] hover:text-[#432df4] duration-400 instrument-sans-yas font-bold! md:text-center">
+                            Mobile App Development</h3>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:h-2/8 md:w-6/8 justify-center md:items-start">
+                        <p class="text-[16px] text-[#0E0F11] w-[70%] lg:w-full text-center font-extralight">Magna
+                            fermentum
+                            faucibus nibh ullamcorper consectetur est.</p>
+                    </div>
+                </div>
+                <!-- ///// -->
+                <div class="row *:w-full">
+                    <div class="row h-[80%] sm:h-[90%] md:h-1/2 md:w-[90%] justify-center items-center">
+                        <figure
+                            class="w-[90%] h-[80%] sm:h-[90%] md:h-[72%] md:w-[73%] lg:w-[80%] lg:h-full rounded-[5px] overflow-hidden">
+                            <img class="w-full h-full" src="src/img/sec-4-3.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:w-1/2 md:h-2/8 lg:w-full justify-center items-center">
+                        <h3
+                            class="text-[22px] text-[#0E0F11] font-bold! hover:text-[#432df4] duration-400 instrument-sans-yas md:text-center">
+                            Web Development</h3>
+                    </div>
+                    <div class="row h-[10%] sm:h-[5%] md:h-2/8 md:w-6/8 lg:w-full justify-center md:items-start">
+                        <p class="text-[16px] text-[#0E0F11] w-[70%] text-center font-extralight">Magna fermentum
+                            faucibus nibh ullamcorper consectetur est.</p>
+                    </div>
+                </div>
+                <!-- //// -->
+            </div>
+        </div>
+    </section>
+    <!-- sec 4 -->
+
+    <!-- sec 5 -->
+    <section class="w-full h-[190vh] flex justify-center md:h-[140vh] 2xl:h-[900px]">
+        <div class="row w-full h-full *:md:w-1/2 md:items-center 2xl:container">
+            <div class="w-full h-1/2 md:h-full">
+                <div class="w-full h-full  flex justify-center items-start pt-[10vh]! 2xl:pt-5!">
+                    <figure
+                        class="w-[90%] lg:w-[536px] 2xl:w-[560px] h-[85%] md:h-[75%] lg:h-[662px] flex justify-center items-center rounded-[5px] overflow-hidden relative duration-400 before:content-[''] before:w-full before:h-full before:bg-black before:opacity-40 before:absolute before:z-10 hover:scale-103 hover:before:bg-[#220584] hover:before:opacity-70 before:duration-400 xl:ml-[15%]!">
+                        <div class="h-full w-full bg-cover" style="background-image: url('src/img/sec5-1.jpg'); "></div>
+                        <div class="absolute top-0 left-0 w-full h-full z-10">
+                            <div class="h-1/7 w-full row items-center">
+                                <p class="text-[#f6e760] text-[17px] saira-font font-semibold ml-10! mt-8!">App</p>
+                            </div>
+                            <div class="w-full h-3/7 row items-center justify-center">
+                                <h2 class="text-white text-[46px] w-8/10 leading-14 font-bold!">Project Chroma : A Color
+                                    Picker And Palette Generator Tool</h2>
+                            </div>
+                            <div class="w-full h-3/7 row items-end">
+                                <div style="font-family: Arial, Helvetica, sans-serif;"
+                                    class="rounded-4xl bg-[#432df4] text-white text-[17px] w-[168px] h-[59px] row justify-center items-center ml-[10%]! mb-[10%]!">
+                                    View project</div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="w-full h-1/2 md:h-full">
+                <div class="w-full h-full flex justify-center items-start pt-[10vh]! 2xl:pt-5!">
+                    <figure
+                        class="w-[90%] lg:w-[536px] 2xl:w-[560px]  h-[85%] md:h-[75%] lg:h-[662px] flex justify-center items-center rounded-[5px] overflow-hidden relative duration-400 before:content-[''] before:w-full before:h-full before:bg-black before:opacity-40 before:absolute before:z-10 hover:scale-103  hover:before:bg-[#220584] hover:before:opacity-70 xl:ml-[-15%]!">
+                        <div class="h-full w-full bg-cover" style="background-image: url('src/img/sec5-2.jpg');"></div>
+                        <div class="absolute top-0 left-0 w-full h-full z-10">
+                            <div class="h-1/7 w-full row items-center">
+                                <p class="text-[#f6e760] text-[17px] saira-font font-semibold ml-10! mt-8!">App
+                                    Development</p>
+                            </div>
+                            <div class="w-full h-3/7 row items-center justify-center">
+                                <h2 class="text-white text-[46px] w-9/10 leading-14 font-bold! ml-4! mb-4!">CodeJam : An
+                                    App That Allows Programmers To Collaborate</h2>
+                            </div>
+                            <div class="w-full h-3/7 row items-end">
+                                <div style="font-family: Arial, Helvetica, sans-serif;"
+                                    class="rounded-4xl bg-[#432df4] text-white text-[17px] w-[168px] h-[59px] row justify-center items-center ml-[10%]! mb-[10%]!">
+                                    View project</div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sec 5 -->
+
+    <!-- sec 6 -->
+    <section class="row w-full h-[240vh] md:h-[140vh] xl:h-[120vh] 2xl:h-[800px] justify-center">
+        <div
+            class="w-full h-full row items-end  bg-black md:bg-[url('../img/bg-rojin-final.jpg')] bg-right bg-size-[70%_100%] bg-position-[20% 100%] bg-no-repeat xl:justify-center">
+            <div class="w-full xl:w-[85%] 2xl:w-[82%] h-[90%] row mb-7! md:items-center 2xl:container">
+                <!-- ///////// -->
+                <div
+                    class="relative w-full md:w-1/3 h-1/3 md:h-[85%] lg:h-[75%] xl:h-[90%] row justify-center items-center">
+                    <div class="relative w-full h-full row justify-center items-center group">
+                        <div
+                            class="absolute w-[90%] h-[80%] rounded-md bg-[#18191d] z-10 group-hover:-translate-y-15 duration-200">
+                            <div class="w-full h-1/4 flex items-center">
+                                <span class="text-white instrument-sans-yas ml-10! mt-5! text-[16px]">01</span>
+                            </div>
+                            <div class="w-full h-1/4">
+                                <img class="w-[84px] h-[84px] ml-10!" src="src/img/sec6-i1.png" alt="">
+                            </div>
+                            <div class="w-full h-1/2 row justify-start items-center *:ml-10! pb-8!">
+                                <h2 class="w-[80%] text-white text-[36px] font-bold ">Web Development</h2>
+                                <p class="w-[70%] text-[#ffffffb2] text-[16px]">Creating and maintaining websites using
+                                    various languages and frameworks.</p>
+                            </div>
+                        </div>
+
+                        <!-- hover -->
+                        <div
+                            class="absolute top-[10%] left-[10%] w-[80%] h-[80%] z-1 bg-[#432df4] rounded-xl hover:bg-[#250ecf] duration-400 flex items-end justify-center">
+                            <p class=" text-white text-[18px] instrument-sans-yas mb-4!">View this servise</p>
+                        </div>
+                        <!-- hover -->
+                    </div>
+
+                </div>
+                <!-- ////////// -->
+
+                <!-- ////////// -->
+                <div
+                    class="relative w-full md:w-1/3 h-1/3 md:h-[85%] lg:h-[75%] xl:h-[90%] row justify-center items-center">
+                    <div class="relative w-full h-full row justify-center items-center group">
+                        <div
+                            class="absolute w-[90%] h-[80%] rounded-md bg-[#18191d] z-10 group-hover:-translate-y-15 duration-200">
+                            <div class="w-full h-1/4 flex items-center">
+                                <span class="text-white instrument-sans-yas ml-10! mt-5! text-[16px]">02</span>
+                            </div>
+                            <div class="w-full h-1/4">
+                                <img class="w-[84px] h-[84px] ml-10!" src="src/img/sec6-i2.png" alt="">
+                            </div>
+                            <div class="w-full h-1/2 row justify-start items-center *:ml-10! pb-8!">
+                                <h2 class="w-[80%] text-white text-[36px] font-bold ">Software Engineering</h2>
+                                <p class="w-[70%] text-[#ffffffb2] text-[16px]">Designing and developing software
+                                    applications
+                                    for different platforms and devices.</p>
+                            </div>
+                        </div>
+
+                        <!-- hover -->
+                        <div
+                            class="absolute top-[10%] left-[10%] w-[80%] h-[80%] z-1 bg-[#432df4] rounded-xl hover:bg-[#250ecf] duration-400 flex items-end justify-center">
+                            <p class=" text-white text-[18px] instrument-sans-yas mb-4!">View this servise</p>
+                        </div>
+                        <!-- hover -->
+                    </div>
+
+                </div>
+                <!-- //////////// -->
+
+
+
+                <!-- //////// -->
+                <div
+                    class="relative w-full md:w-1/3 h-1/3 md:h-[85%] lg:h-[75%] xl:h-[90%] row justify-center items-center">
+                    <div class="relative w-full h-full row justify-center items-center group">
+                        <div
+                            class="absolute w-[90%] h-[80%] rounded-md bg-[#18191d] z-10 group-hover:-translate-y-15 duration-200">
+                            <div class="w-full h-1/4 flex items-center">
+                                <span class="text-white instrument-sans-yas ml-10! mt-5! text-[16px]">03</span>
+                            </div>
+                            <div class="w-full h-1/4">
+                                <img class="w-[84px] h-[84px] ml-10!" src="src/img/sec6-i3.png" alt="">
+                            </div>
+                            <div class="w-full h-1/2 row justify-start items-center *:ml-10! pb-8!">
+                                <h2 class="w-[80%] text-white text-[36px] font-bold ">Game Development</h2>
+                                <p class="w-[70%] text-[#ffffffb2] text-[16px]">Creating and testing video games for
+                                    various genres and platforms using the best engines.</p>
+                            </div>
+                        </div>
+
+                        <!-- hover -->
+                        <div
+                            class="absolute top-[10%] left-[10%] w-[80%] h-[80%] z-1 bg-[#432df4] rounded-xl hover:bg-[#250ecf] duration-400 flex items-end justify-center">
+                            <p class=" text-white text-[18px] instrument-sans-yas mb-4!">View this servise</p>
+                        </div>
+                        <!-- hover -->
+                    </div>
+
+                </div>
+                <!-- /////////// -->
+            </div>
+
+        </div>
+    </section>
+    <!-- sec 6 -->
+
+    <!-- sec 7 -->
+    <section class="w-full h-[83vh] md:h-[90vh] lg:h-[95vh] xl:h-screen 2xl:h-[764px]">
+        <div
+            class="row items-start md:items-center 2xl:justify-center w-full h-full bg-[url('../img/sec7.jpg')] bg-cover bg-size-[70% 100%] bg-center bg-no-repeat">
+            <div class="row w-[85%] md:w-[62%] lg:w-[68%] xl:w-[784px] 2xl:w-[780px] h-[90%] md:h-[70%] lg:h-[80%] 2xl:h-[60%] xl:ml-[8%]! 2xl:-ml-[20%]! 2xl:container">
+                <a class="text-[#f6e760] text-[17px] font-bold underline decoration-[#f6e760] ml-7! mt-8!" href="">Avada
+                    Programmer</a>
+
+                <h1 class="text-[46px] lg:text-[62px] font-bold text-white block leading-13 lg:leading-16 ml-7!">Hello! We Are A Group Of Skilled
+                    Developers
+                    And Programmers.</h1>
+
+                <p class="text-white text-[19px] instrument-sans-yas w-[80%] ml-7!">We have experience in working with
+                    different platforms, systems, and devices to create products that are compatible and accessible.</p>
+
+                <div class="w-[260px] h-[58px] items-center justify-center ml-7! mt-8!">
+                    <div
+                        class="w-full h-full lg:h-full m-3.5 row justify-end items-start lg:items-center **:text-white **:text-[17px]">
+                        <a
+                            class="group row overflow-hidden w-full h-full py-[35px] px-[18px] rounded-4xl bg-[#0e0f11] justify-center lg:justify-start items-center duration-200 *:duration-200  hover:border-white">
+                            <span
+                                class="flex justify-center items-center w-full h-full group-hover:opacity-0 group-hover:-translate-y-[60px] ease-[cubic-bezier(.21, .6, .35, 1)] instrument-sans-yas font-bold">Learn about our service</span>
+                            <span
+                                class="flex justify-center items-center w-full h-full opacity-0 group-hover:opacity-100 group-hover:-translate-y-[58px] ease-[cubic-bezier(.21, .6, .35, 1)] instrument-sans-yas font-bold">Learn about our service</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sec 7 -->
+
+    <!-- footer -->
+    <footer class="w-full h-[190vh] md:h-[110vh] 2xl:h-[820px] bg-[#0e0f11] flex justify-center md:items-end items-center">
+        <div class="w-full h-[95%] max-w-[1300px] row">
+            <div class="w-full h-[50vh] md:h-[15vh] 2xl:h-[100px] flex justify-center items-center">
+                <div class="w-[85%] md:w-[95%] h-[70%] *:border *:border-[#3b3c3c] *:w-full *:h-1/3 md:*:h-full row *:flex *:justify-center *:items-center *:text-white">
+                    <div class="md:w-[40%]">
+                        <p class="*:duration-400 cursor-pointer"><span class="hover:text-[#f6e760]">Mail: </span><a class="hover:text-[#f6e760]" href="yasin.torkzaban@gmail.com">yasin.torkzaban@gmail.com</a></p>
+                    </div>
+                    <div class="md:w-[30%]">
+                        <p class="*:duration-400 cursor-pointer"><span class="hover:text-[#f6e760]">Phone: </span><a class="hover:text-[#f6e760]" href="09300381087">09300381087</a></p>
+                    </div>
+                    <div class="gap-4 *:cursor-pointer **:hover:text-[#f6e760] **:duration-400 md:w-[30%]">
+                        <a class="scale-150" href="https://github.com/YasinTorkzaban">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a class="scale-150" href="https://www.instagram.com/yasintorkzaban.dev/?hl=en">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a class="scale-150" href="https://www.linkedin.com/in/yasin-torkzaban-b36171365/">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[60vh] md:h-[70vh] w-full md:w-1/2 lg:w-[65%] lg:h-[65vh] 2xl:h-[550px] row justify-center lg:justify-start lg:*:ml-7! items-center">
+                <div class="h-[95%] w-[85%] *:font-bold *:flex *:items-center">
+                    <div class="w-full h-[12%] text-[#f2f3f5] text-[16px] font-normal!">Explore</div>
+                    <div class="w-full h-[22%] text-[#FFFFFF] text-[48px] border-t-2 border-t-[#3b3c3c] hover:text-[#f6e760] hover:border-t-[#f6e760] duration-400">Software</div>
+                    <div class="w-full h-[22%] text-[#FFFFFF] text-[48px] border-t-2 border-t-[#3b3c3c] hover:text-[#f6e760] hover:border-t-[#f6e760] duration-400">Mobile App</div>
+                    <div class="w-full h-[22%] text-[#FFFFFF] text-[48px] border-t-2 border-t-[#3b3c3c] hover:text-[#f6e760] hover:border-t-[#f6e760] duration-400">Web Design</div>
+                    <div class="w-full h-[22%] text-[#FFFFFF] text-[48px] border-t-2 border-t-[#3b3c3c] hover:text-[#f6e760] hover:border-t-[#f6e760] duration-400">Game Design</div>
+                </div>
+            </div>
+            <div class="h-[50vh] w-full md:w-1/2 md:h-[70vh] lg:w-[35%] lg:h-[65vh] 2xl:h-[10vh] row justify-center items-center">
+                <div class="w-full h-full row **:text-white pt-2! lg:pt-6!">
+                    <div class="w-full h-[55%] md:h-[30vh] md:w-1/2 *:w-full *:h-1/5 *:ml-8! md:*:ml-4!">
+                        <p class="text-[16px]">Connect</p>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Who We Are</h2>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Our Team</h2>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">FAQ</h2>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Testimonials</h2>
+                    </div>
+                    <div class="w-full h-[45%] md:h-[25vh] md:w-1/2 *:w-full *:h-1/4 *:ml-8! md:*:ml-4!">
+                        <p class="text-[16px]">Legal</p>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Privacy Policy</h2>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Terms Of Service</h2>
+                        <h2 class="text-[19px] relative before:w-[87%] md:before:w-[80%] before:h-0.5 before:bg-[#d85927] before:absolute before:top-0 before:left-0 before:opacity-0 before:duration-300 hover:before:top-[75%] hover:before:opacity-100">Press</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[20.5vh] 2xl:h-[130px] w-full **:text-[#f6e760]">
+                <div class="w-full h-full row justify-center items-end">
+                    <p class="w-[85%] text-center mb-5! md:mb-12! *:duration-300">&copy; 2012 - 2025 . <span class="hover:text-[#d85927]">Avada</span> is a <span class="hover:text-[#d85927]">Website Builder</span> for <span class="hover:text-[#d85927]">WordPress</span> and <span class="hover:text-[#d85927]">eCommerce</span> . All Right Reserved . Developed by <span class="hover:text-[#d85927]">Yasin Torkzaban</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    
+    
+    <!-- footer_yas -->
+    <div class="w-50 h-35 md:w-65 md:h-45 xl:w-70 xl:h-50 fixed bottom-5 right-5 flex group z-50">
+
+        <!-- start socials//////// -->
+
+        <div class="w-15 h-full md:w-20 row items-center">
+
+            <!-- start rows////// -->
+
+            <div class="h-[80%] w-full *:w-full *:h-1/4 *:-ml-2!">
+
+
+                <div class="flex justify-end">
+                    <div class="bg-[#000000d7] h-[80%] w-[35%] xl:w-[40%] flex justify-center items-center rounded-[5px] hover:scale-130 hover:bg-[#696969] duration-300 opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0">
+                        <a class="mb-0.5! text-white md:scale-140 xl:scale-160" href="https://www.instagram.com/yasintorkzaban.dev/?hl=en">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <div class="bg-[#000000d7] h-[80%] w-[35%] xl:w-[40%] flex justify-center items-center rounded-[5px] hover:scale-130 hover:bg-[#696969] duration-300 opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0">
+                        <a class="mb-0.5! md:mb-1! text-white md:scale-120 xl:scale-140" href="mailto:yasin.torkzaban@gmail.com">
+                            <i class="icon-mail-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <div class="bg-[#000000d7] h-[80%] w-[35%] xl:w-[40%] flex justify-center items-center rounded-[5px] hover:scale-130 hover:bg-[#696969] duration-300 opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0">
+                        <a class="mb-0.5! text-white md:scale-120 xl:scale-140" href="https://www.linkedin.com/in/yasin-torkzaban-b36171365/">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <div class="bg-[#000000d7] h-[80%] w-[35%] xl:w-[40%] flex justify-center items-center rounded-[5px] hover:scale-130 hover:bg-[#696969] duration-300 opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0">
+                        <a class="mb-0.5! text-white md:scale-120 xl:scale-140" href="https://github.com/YasinTorkzaban">
+                            <i class="icon-github-circled-alt2"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- end of rows///// -->
+
+        </div>
+
+        <!-- end of socials///// -->
+
+        <!-- start profile///// -->
+
+        <div style="border-radius: 71% 29% 31% 69% / 44% 43% 57% 56% ; background-image: url(footer/src/img/3.JPG);"
+            class="w-35 h-full md:w-45 xl:w-50 bg-cover relative z-100"></div>
+
+
+        <!-- end of profile///////// -->
+
+    </div>
+    <!-- footer_yas -->
+
+</body>
+
+
+</html>
